@@ -12,101 +12,341 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
     <!-- JS para bootstrap -->
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/218227aa6c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/custom.css">
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid">
-            <div class="container">
-                <nav class="row mt-2 mb-2">
-                    <div class="col-2">
-                      <a class="navbar-brand" href="#">
-                        <img src="./imagenes/logo.PNG" class="d-inline-block w-75 mt-1">
-                      </a>
-                    </div>
-                    <div class="col-8">
-                      <ul class="nav justify-content-center ">
+    <div class="container-fluid">
+        <div class="container">
+            <nav class="row mt-2 mb-2">
+                <div class="col-2">
+                    <a class="navbar-brand" href="#"><img src="./imagenes/logo.PNG" class=" mt-1"></a>
+                </div>
+                <div id="header" class="col-8">
+                    <ul class="nav justify-content-center ">
                         <li class="nav-item">
-                          <a class="nav-link active" href="#">Home</a>
+                            <a class="nav-link" href="#header">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link text-dark" href="#Porfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">About Me</a>
+                            <a class="nav-link text-dark" href="#AboutMe">About Me</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Testimonials</a>
+                            <a class="nav-link text-dark" href="#">Testimonials</a>
                         </li>
-                      </ul>
-                    </div>
-                    <div class="col-2">
-                      <input class="btn btn-outline-primary" type="submit" value="Contact Me">
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="container-fluid">
-            <div class="container">
-                <section id="header">
-                    <div class="row">
-                        <div class="col-6">
-                            <br>
-                            <br>
-                            <p>Hey, I am John</p>
-                            <h1>I create product design and brand experience</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perferendis maxime dolor ab ullam accusamus, sed voluptate odio in? Impedit molestias quidem exercitationem earum excepturi nostrum porro accusamus necessitatibus omnis.</p>
-                            <button class="btn btn-outline-primary">Get in touch</button>
-                        </div>
-                        <div class="col-5">
-                            <img class="img-fluid" src="imagenes/cara.png" alt="cara">
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-        <div class="container-fluid ">
-            <div class="container">
-                <section id="header">
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <input class="btn btn-outline-primary " type="submit" value="Contact Me">
+                </div>
+            </nav>
+            <br>
+            <br>
+            <br>
+            <section id="texto1">
+                <div class="row color_fondo">
                     <div class="col-6">
-                        <p>Skill</p>
-                        <h1>My Expertise</h1>   
+                        <br>
+                        <br>
+                        <p>Hey, I am Pau</p>
+                        <h1>I create <span class="text-primary">product design</span> and brand experience</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perferendis maxime dolor ab ullam accusamus, sed voluptate odio in? Impedit molestias quidem exercitationem earum excepturi nostrum porro accusamus necessitatibus omnis.</p>
+                        <button type="button" class="btn mt-3 bg-primary text-white p-2">Get in Touch</button>
                     </div>
-                    <div class="d-flex justify-content-start">
-                        <div>
-                            <img src="#" alt="Foto">
-                            <h5>Strategy & Direction</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-                        </div>
-                        <div>
-                            <img src="#" alt="Foto">
-                            <h5>Branding & Logo</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-                        </div>
-                        <div>
-                            <img src="#" alt="Foto">
-                            <h5>UI & UX Design</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-                        </div>
-                        <div>
-                            <img src="#" alt="Foto">
-                            <h5>Webflow Development</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <div class="col-5">
+                        <img class="img-fluid" src="imagenes/cara.png" alt="cara">
+                    </div>
+                </div>
+            </section>
+            <section id="My Expertise">
+                <div class="col-6 margen">
+                    <p><strong>Skill</strong></p>
+                    <h2><strong>My Expertise</strong></h2>   
+                </div>
+                <div class="d-flex justify-content-start " style="margin-right: 1%;">
+                    <div class="col-3 color_fondo">
+                        <img src="imagenes/img2.png" alt="Foto1">
+                        <h5>Strategy & Direction</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                    <div class="col-3 color_fondo " style="margin-left: 0.7%;">
+                        <img src="imagenes/img1.png" alt="Foto2" >
+                        <h5>Branding & Logo</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                    <div class="col-3 color_fondo" style="margin-left: 0.7%;">
+                        <img src="imagenes/img3.png" alt="Foto3">
+                        <h5>UI & UX Design</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                    <div class="col-3 color_fondo" style="margin-left: 0.7%;">
+                        <img src="imagenes/img4.png" alt="Foto4">
+                        <h5>Webflow Development</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="AboutMe">
+                <div class="row">
+                    <div class="col-6 margen">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <img class="img-fluid" src="imagenes/pibe2.png" alt="About Me">
+                    </div>
+                    <div class="col-6 margen2">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <p><strong>About</strong></p>
+                        <h2><strong>About Me</strong></h2>   
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
+                        <p class="">Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <section id="Porfolio" class="pb-5">
+                <div class="row d-flex margen">
+                    <div class="col-10">
+                        <p><strong>Recents projects</strong></p>
+                        <h2><strong>My portfolio</strong></h2>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="col-2">
+                        <br>
+                        <div class="d-grid gap-2 mx-auto">
+                            <button class="btn btn-info text-white" type="button"><img src="imagenes/Vector.png" alt="Vector" style="margin-right: 10px;">Visit My Dribble</button>
                         </div>
                     </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="imagenes/ahuse.png" class="card-img-top" alt="abuse">
+                            <div class="card-body">
+                                <h5 class="card-title">Ahuse</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                <a href="#" class="nav-link"><strong>View In Dribbble</strong><img src="imagenes/flecha1.png" alt="flecha"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="imagenes/appdash.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">App Dashboard</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                <a href="#" class="nav-link"><strong>View In Dribbble</strong><img src="imagenes/flecha1.png" alt="flecha"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="imagenes/easy.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Easy Rent</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                <a href="#" class="nav-link"><strong>View In Dribbble</strong><img src="imagenes/flecha1.png" alt="flecha"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <br>
+                <br>
+                <br>
+                <div class="row color_fondo">
+                    <p><strong>Clients Feedback</strong></p>
+                    <h2><strong>Customer testimonials</strong></h2>
+                    <div class="col-4">
+                        <div class="card" style="border: 1px solid #006B6A; width: 26rem;">
+                            <div class="card-body">
+                                <br>
+                                <div class="d-flex">
+                                    <img src="imagenes/estrellas.png" alt="estrella">
+                                    <img src="imagenes/estrellas.png" alt="estrella">
+                                    <img src="imagenes/estrellas.png" alt="estrella">
+                                    <img src="imagenes/estrellas.png" alt="estrella">
+                                    <img src="imagenes/estrellas.png" alt="estrella">
+                                </div>
+                                <br>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+                                <div style="display: flex;">
+                                    <img src="imagenes/Avatar1.png" alt="Avatar1" style="width:60px; height: 60px; margin: 20px;">
+                                    <div class="card-body">
+                                        <p><strong>Dianne Russell</strong></p>
+                                        <p>Starbucks</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="border: 1px solid #006B6A; width: 26rem;">
+                            <div class="card-body">
+                                <br>
+                                <div class="d-flex">
+                                    <img src="imagenes/estrellas.png" alt="estrella">
+                                    <img src="imagenes/estrellas.png" alt="estrella">
+                                    <img src="imagenes/estrellas.png" alt="estrella">
+                                    <img src="imagenes/estrellas.png" alt="estrella">
+                                    <img src="imagenes/estrellas.png" alt="estrella">
+                                </div>
+                                <br>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+                                <div style="display: flex;">
+                                    <img src="imagenes/Avatar2.png" alt="Avatar2" style="width:60px; height: 60px; margin: 20px;">
+                                    <div class="card-body">
+                                        <p><strong>Kristin Watson</strong></p>
+                                        <p>Louis Vuitton</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="border: 1px solid #006B6A; width: 26rem;">
+                            <div class="card-body">
+                                <br>
+                                <div class="d-flex">
+                                    <img src="imagenes/estrellas.png" alt="estrella1">
+                                    <img src="imagenes/estrellas.png" alt="estrella2">
+                                    <img src="imagenes/estrellas.png" alt="estrella3">
+                                    <img src="imagenes/estrellas.png" alt="estrella4">
+                                    <img src="imagenes/estrellas.png" alt="estrella5">
+                                </div>
+                                <br>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+                                <div style="display: flex;">
+                                    <img src="imagenes/Avatar3.png" alt="Avatar3" style="width:60px; height: 60px; margin: 20px;">
+                                    <div class="card-body">
+                                        <p><strong>Kathryn Murphy</strong></p>
+                                        <p>McDonald's</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Contact" class="mt-5">
+                <div class="col-12 text-center mt-5 color">
+                    <p><strong>Get In Touch</strong></p>
+                    <h1>Contact Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                    <div class="col-12 mt-5 ">
+                    <form class="mt-3">
+                        <div class="mb-3 d-flex mt-5">
+                            <div class="col-3 mx-auto me-2">
+                                <label for="Nombre" class="form-label">First name</label>
+                                <input type="text" class="form-control border-primary" id="First" >
+                            </div>
+                            <div class="col-3 mx-auto ms-2">
+                                <label for="Apellido" class="form-label">Last name</label>
+                                <input type="text" class="form-control border-primary" id="Last" >
+                            </div>
+                        </div>
+                        <div class="mb-3 d-flex mt-5">
+                            <div class="col-3 mx-auto me-2">
+                                <label for="Email" class="form-label">Email</label>
+                                <input type="email" class="form-control border-primary" id="email" >
+                            </div>
+                            <div class="col-3 mx-auto ms-2">
+                                <label for="Numero" class="form-label ">Phone number</label>
+                                <input type="text" class="form-control border-primary" id="Numero" >
+                            </div>
+                        </div>
+                        <div class="d-flex mt-5">
+                            <div class="col-7 mx-auto ps-5 pe-5">
+                                <label class="form-label">Choose a topic</label>
+                                <select class="form-select border-primary" id="inputGroupSelect01">
+                                    <option selected>Select one...</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mt-5 col-12">
+                            <div class="col-6 mx-auto">
+                            <label>Message</label>
+                            <textarea class="form-control border-primary" placeholder="Type your message" id="message" style="height: 145px"></textarea>
+                            <input class="form-check-input mt-3   border-primary" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label mt-3" >I accept the terms</label>
+                            
+                            </div>
+                            <div class="text-center mt-4">
+                            <button type="button" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                        
                 </section>
+                <br>
+                <br>
+                <footer>
+                    <section>
+                        <div id="fotter">
+                            <div class="container_fluid">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img style="margin-left: 40px;" src="imagenes/Logo.png" alt="Logo">
+                                        </div>
+                                        <div class="col-6" style="margin-left: 10%;">
+                                            <div class="row">
+                                                <div class="col-2"><a href="#header" class="nav-link"><p>Home</p></a></div>
+                                                <div class="col-2"><a href="#Porfolio" class="nav-link"><p>Portfolio</p></a></div>
+                                                <div class="col-2"><a href="#AboutMe" class="nav-link"><p>About Me</p></a></div>
+                                                <div class="col-2 "><a href="#Contact" class="nav-link"><p>Contact</p></a></div>
+                                                <div class="col-2"><a href="#Testimonials" class="nav-link"><p>Testimonials</p></a></div>
+                                                <div class="col-2"><a href="#Porfolio" class="nav-link"><p>Portfolio</p></a></div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                            <i class="fa-brands fa-instagram"></i>
+                                            <i class="fa-brands fa-twitter"></i>
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <hr>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <p style="margin-left: 40px;">Hecho por Pau</p>
+                                        </div>
+                                        <div class="col-2" style="margin-left: 60%;">
+                                            <div class="d-flex">
+                                                <div class=""><a href="#" class="nav-link"><p>Privacy Policy</p></a></div>
+                                                <div class=""><a href="#" class="nav-link"><p>Terms of Service</p></a></div>
+                                                <div class=""><a href="#" class="nav-link"><p>Cookies Settings</p></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </footer>
             </div>
-            
-        </div>
-      
-    </main>
-    <footer></footer>
-
-</body>
-
+        </div>  
+    </body>
 </html>
